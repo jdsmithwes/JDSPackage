@@ -2,6 +2,6 @@
 
 __author__ = """Jamaal Darius Smith"""
 __email__ = 'jdsmith1906@gmail.com'
-__version__ = '0.5.2'
+__version__ = '1.0.0'
 
 from JDSPackage import *
