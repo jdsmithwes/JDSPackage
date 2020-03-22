@@ -2,7 +2,7 @@
 
 __author__ = """Jamaal Darius Smith"""
 __email__ = 'jdsmith1906@gmail.com'
-__version__ = '0.3.0'
+__version__ = '__version__ = '0.3.0''
 
 
 #Functions for header info in notebooks to automate including your name, date, and version number of a notebook
