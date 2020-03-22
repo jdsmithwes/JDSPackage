@@ -10,11 +10,19 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = ['IPython','pprint', 'seaborn','tzlocal',#'nltk', #'cufflinks==0.16','plotly==3.10.0',
+'qgrid','fake-useragent','gensim','openpyxl','beautifulsoup4','cufflinks',#'plotly==3.10.0',
+'xgboost','pyperclip','tweepy''numpy', 'pandas', 'seaborn', 'matplotlib', 'scikit-learn', 'pydotplus',
+ 'scipy', 'shap','LIME','IPython','pprint','graphviz','nltk','lime', 'cufflinks==0.16','plotly==3.10.0',
+ 'qgrid','fake-useragent','keras>=2.2.4','tensorflow','eli5','ipywidgets',
+ 'pytz','tzlocal','gensim','openpyxl','beautifulsoup4',
+ 'imgkit','xgboost','pyperclip'] 
 
-setup_requirements = [ ]
+setup_requirements = requirements
 
-test_requirements = [ ]
+#setup_requirements = [ ]
+
+test_requirements = requirements
 
 setup(
     author="Jamaal Darius Smith",
