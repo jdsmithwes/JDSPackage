@@ -16,7 +16,7 @@ def Header(name, project_name):
 
     name: Print out of the first and last name of the notebook creator
     project_name: Print out of the project name
-    date: Today's date
+    
     
     
     """
@@ -26,7 +26,7 @@ def Header(name, project_name):
     project_name = 'Flatiron School Capstone Project'
     print(name[0], name[1])
     print (project_name)
-    print (date)
+    
     
 
 
