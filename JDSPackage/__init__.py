@@ -2,8 +2,7 @@
 
 __author__ = """Jamaal Darius Smith"""
 __email__ = 'jdsmith1906@gmail.com'
-__version__ = '__version__ = '0.4.0''
-
+__version__ = '0.1.0'
 
 #Functions for header info in notebooks to automate including your name, date, and version number of a notebook
 
@@ -21,7 +20,7 @@ def Header(name, project_name):
 
     name: Print out of the first and last name of the notebook creator
     project_name: Print out of the project name
-    date: Today's date
+
     
     
     """
@@ -31,4 +30,3 @@ def Header(name, project_name):
     project_name = 'Flatiron School Capstone Project'
     print(name[0], name[1])
     print (project_name)
-    print (date)
