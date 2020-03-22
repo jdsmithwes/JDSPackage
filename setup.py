@@ -27,12 +27,11 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
-        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+    
     ],
+    
     description="documentation for first package",
     install_requires=requirements,
     license="GNU General Public License v3",
@@ -45,6 +44,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/jdsmithwes/JDSPackage',
-    version='0.4.0',
-    zip_safe=False,
+    version= '0.4.0',
+    zip_safe= False,
 )
