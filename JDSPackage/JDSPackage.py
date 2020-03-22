@@ -24,7 +24,6 @@ def Header(name, project_name):
     last_name = 'Smith'
     name = (first_name  , last_name)
     project_name = 'Flatiron School Capstone Project'
-    date = datetime.today()
     print(name[0], name[1])
     print (project_name)
     print (date)
