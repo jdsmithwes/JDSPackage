@@ -44,6 +44,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/jdsmithwes/JDSPackage',
-    version= 'version='1.1.0'',
+    version= 'version='0.5.2'',
     zip_safe= False,
 )
