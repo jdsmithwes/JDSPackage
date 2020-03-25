@@ -5,3 +5,4 @@ __email__ = 'jdsmith1906@gmail.com'
 __version__ = '1.1.0'
 
 from JDSPackage import *
+from Calculus import *
